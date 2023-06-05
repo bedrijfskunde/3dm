@@ -1,0 +1,80 @@
+---
+title: "Project Charter Data Quality"
+format:
+  html:
+    theme: cerulian
+editor: visual
+jupyter: python3
+---
+
+## Introduction
+
+![](https://www.datascience-pm.com/wp-content/uploads/2021/02/CRISP-DM.png)
+
+An essential step in data analytics is assessing and ameliorating the quality of source data. With small data sets this is a tedious task which however can be done manually. As data volume and variety increases more automation is required. The project customer wants to improve the efficiency of its data preparation processes:
+
+1.  Automated quality assessment of input data
+2.  Smart quality improvements using RPA and AI
+3.  Auto-generated exploratory data analysis
+
+## Resources
+
+These videos serve as resources for understanding the current advancements in data analytics technology. They can serve as a foundation to begin your journey of discovery and exploration in this field.
+
+```{=html}
+<div class="card border-dark mb-3" style="width: 562px">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/KswXd7tnJko" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+</iframe>
+  <div class="card-body">
+    <p class="card-text">Building an end-to-end analytics project in MS Fabric. Creating a data warehouse, selecting connectors, mapping columns, and replicating data. Fabric provides low-code experiences, allowing users to visually build and model their data without writing code. The integration of fabric with Power BI enables collaborative data modeling, relationship creation, and report building within a single integrated experience. More on MS Fabric <a href="https://www.microsoft.com/en-us/microsoft-fabric" target="_blank">here</a></p>
+</div>
+</div>
+```
+
+```{=html}
+<div class="card border-dark mb-3" style="width: 562px">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/GYCORMNr_IU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  <div class="card-body">
+    <p class="card-text">Simple ML is an add-on for Google Sheets to solve the most common ML tasks. Its main tasks are are highly automated ML capabilities that do not require users to know ML: Predict missing values, spot abnormal values, and forecast future values.</p>
+</div>
+</div>
+
+```
+
+```{=html}
+<div class="card border-dark mb-3" style="width: 562px">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/K7GPVZZiC6s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  <div class="card-body">
+    <p class="card-text">This video discusses the application of AutoML Natural Language in solving various problems related to text data. It highlights use cases such as entity extraction, sentiment analysis, and text classification. Entity extraction helps identify known entities in documents, such as people, companies, and locations. Sentiment analysis determines the emotional opinion within text, categorizing it as positive, negative, or neutral. Text classification is useful for categorizing incoming user reports, such as bug reports, billing issues, or feedback.</p>
+</div>    
+</div>
+```
+
+```{=html}
+<div class="card border-dark mb-3" style="width: 562px">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/MxKNdVNyLJY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  <div class="card-body">
+    <p class="card-text">Connect, cleanse, and prepare data for analytics and machine learning projects at scale.</p>
+</div>    
+</div>
+```
+
+```{=html}
+<div class="card border-dark mb-3" style="width: 562px">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/KrzcV1c1W1U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  <div class="card-body">
+    <p class="card-text">Data Wrangler is a code-centric data cleaning tool that is integrated into VS Code and VS Code Jupyter Notebooks. Data Wrangler aims to increase the productivity of data scientists doing data cleaning by providing a rich user interface that automatically generates Pandas code for and shows insightful column statistics and visualizations.</p>
+</div>
+</div>
+```
+
+```{=html}
+<div class="card border-dark mb-3" style="width: 562px">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/wr__6tM5U6I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  <div class="card-body">
+    <p class="card-text">Copilot in Power BI enhances the functionality of Power BI by incorporating large language models. It aims to assist users in maximizing productivity and extracting greater value from their data. With Copilot, users can effortlessly communicate their desired visuals and insights, leaving the rest to the tool. It enables quick report creation, efficient customization of DAX calculations, generation of narrative summaries, and conversational data querying. Power BI further facilitates the inclusion of tailored narratives within reports, enabling data insights to be conveyed effectively through easy-to-comprehend text summaries.</p>
+</div>    
+</div>
+```
+
+
