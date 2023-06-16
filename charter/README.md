@@ -1,4 +1,4 @@
-# Data Analytics for Supply Chain
+# Data Analytics for Supply Chains
 
 ![](logo.png)
 
