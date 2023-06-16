@@ -85,6 +85,17 @@ The following material offers an overview of the current advancements in data an
 ```{=html}
 <div class="card m-5 w-75">
 <div class="ratio ratio-16x9">
+  <iframe src="https://www.youtube.com/embed/KrzcV1c1W1U" allowfullscreen frameborder=0></iframe>
+</div>
+  <div class="card-body">
+    <h5 class="card-title">Data Wrangler Walkthrough</h5>
+    <p class="card-text">A walkthrough and demo of the Data Wrangler Extension for Visual Studio Code. Go to <a href="aka.ms/datawrangler" target="_blank">aka.ms/datawrangler</a> to learn more!</p>
+  </div>
+</div>
+```
+```{=html}
+<div class="card m-5 w-75">
+<div class="ratio ratio-16x9">
   <iframe src="https://www.youtube.com/embed/MxKNdVNyLJY" allowfullscreen frameborder=0></iframe>
 </div>
   <div class="card-body">
