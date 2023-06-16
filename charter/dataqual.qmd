@@ -126,3 +126,8 @@ The following material offers an overview of the current advancements in data an
   </div>
 </div>
 ```
+
+## References
+
+::: {#refs}
+:::
