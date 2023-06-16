@@ -1,6 +1,6 @@
 # Data Analytics for Supply Chain
 
-![Project Logo](/path/to/logo.png)
+![](logo.png)
 
 ## Introduction
 
