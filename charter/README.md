@@ -28,7 +28,7 @@ git clone https://github.com/your-username/supply-chain-analytics.git
 2. Install the required dependencies:
 
 ```bash
-pip install -r requirements.txt
+# not working yet pip install -r requirements.txt 
 ```
 
 ## Usage
@@ -36,13 +36,13 @@ pip install -r requirements.txt
 1. Navigate to the project directory:
 
 ```bash
-cd supply-chain-analytics
+# not working yet cd supply-chain-analytics
 ```
 
 2. Execute the main script to start the data analytics process:
 
 ```bash
-python main.py
+# not working yet python main.py
 ```
 
 3. Follow the prompts and provide the necessary inputs for data collection, cleaning, and analysis.
