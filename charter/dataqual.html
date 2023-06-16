@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Witek ten Hove">
+<meta name="dcterms.date" content="2023-06-16">
 
-<title>Project Charter Data Quality</title>
+<title>Project Data Quality</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,7 +22,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="dataqual_files/libs/clipboard/clipboard.min.js"></script>
@@ -33,89 +54,184 @@ ul.task-list li input[type="checkbox"] {
 <script src="dataqual_files/libs/bootstrap/bootstrap.min.js"></script>
 <link href="dataqual_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="dataqual_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<style>
+
+      .quarto-title-block .quarto-title-banner {
+        background: #e50055;
+      }
+</style>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 
 
 </head>
 
-<body class="fullcontent">
+<body>
 
-<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
-
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Project Charter Data Quality</h1>
-</div>
-
-
-
-<div class="quarto-title-meta">
-
-    
-  
-    
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Project Data Quality</h1>
+            <p class="subtitle lead">Charter</p>
+                      </div>
   </div>
+    
   
+  <div class="quarto-title-meta">
 
-</header>
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Witek ten Hove </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">June 16, 2023</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+  <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#problem-description" id="toc-problem-description" class="nav-link active" data-scroll-target="#problem-description"><span class="header-section-number">1</span> Problem description</a></li>
+  <li><a href="#facilities" id="toc-facilities" class="nav-link" data-scroll-target="#facilities"><span class="header-section-number">2</span> Facilities</a></li>
+  <li><a href="#resources" id="toc-resources" class="nav-link" data-scroll-target="#resources"><span class="header-section-number">3</span> Resources</a></li>
+  </ul>
+</nav>
+</div>
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
-<section id="introduction" class="level2">
-<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
-<p><img src="https://www.datascience-pm.com/wp-content/uploads/2021/02/CRISP-DM.png" class="img-fluid"></p>
+
+
+
+<section id="problem-description" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="problem-description"><span class="header-section-number">1</span> Problem description</h2>
+<div id="fig-crispdm" class="quarto-figure quarto-figure-center anchored" style="cursor: zoom-in;">
+<figure class="figure">
+<p><img src="https://www.datascience-pm.com/wp-content/uploads/2021/02/CRISP-DM.png" class="m-5 w-75 img-fluid figure-img" onclick="toggleImageSize(&quot;fig-crispdm&quot;)" title="Click to enlarge"></p>
+<figcaption class="figure-caption">Figure&nbsp;1: CRISP DM Framework <span class="citation" data-cites="noauthor_cross-industry_2023">(<a href="#ref-noauthor_cross-industry_2023" role="doc-biblioref"><span>“Cross-Industry Standard Process for Data Mining”</span> 2023</a>)</span></figcaption>
+</figure>
+</div>
 <p>Data analytics involves a crucial process of evaluating and enhancing the quality of source data. While manual assessment suffices for small datasets, the task becomes arduous as data volume and variety expand. To address this challenge, the project customer aims to enhance the efficiency of their data preparation procedures through the following initiatives:</p>
 <ol type="1">
 <li><p>Automated quality assessment: Implementing automated techniques to evaluate the quality of input data, enabling swift identification of anomalies or inconsistencies.</p></li>
 <li><p>Smart quality improvements: Leveraging Robotic Process Automation (RPA) and Artificial Intelligence (AI) to intelligently rectify data quality issues, streamlining the data cleansing and enrichment process.</p></li>
 <li><p>Auto-generated exploratory data analysis: Employing automated tools to generate insightful exploratory data analysis, providing valuable insights and uncovering patterns or trends within the data.</p></li>
+<li><p>Secure data access: Ensuring that data is accessed only by authorized individuals or systems in a protected and controlled manner.</p></li>
 </ol>
 <p>By adopting these measures, the project customer aims to optimize their data preparation workflows, ensuring higher data quality and accelerating the overall data analytics process.</p>
 </section>
-<section id="resources" class="level2">
-<h2 class="anchored" data-anchor-id="resources">Resources</h2>
-<p>These videos serve as resources for understanding the current advancements in data analytics technology. They can be used as a foundation to begin your journey of discovery and exploration in this field.</p>
-<div class="card border-dark mb-3" style="width: 562px">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/KswXd7tnJko" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="">
-</iframe>
-  <div class="card-body">
-    <p class="card-text">Building an end-to-end analytics project in MS Fabric. Creating a data warehouse, selecting connectors, mapping columns, and replicating data. Fabric provides low-code experiences, allowing users to visually build and model their data without writing code. The integration of fabric with Power BI enables collaborative data modeling, relationship creation, and report building within a single integrated experience. More on MS Fabric <a href="https://www.microsoft.com/en-us/microsoft-fabric" target="_blank">here</a></p>
+<section id="facilities" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="facilities"><span class="header-section-number">2</span> Facilities</h2>
+<p>The project customer fully supports this project and offers:</p>
+<ul>
+<li><p>A secure work environment with comprehensive guidance and coaching.</p></li>
+<li><p>Remote work opportunities for international participants.</p></li>
+<li><p>Access to essential facilities, including domain experts, technology, systems, and data.</p></li>
+<li><p>Room for exploration and experimentation.</p></li>
+</ul>
+</section>
+<section id="resources" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="resources"><span class="header-section-number">3</span> Resources</h2>
+<p>The following material offers an overview of the current advancements in data analytics technology. It can be used as a foundation to begin your journey of discovery and exploration op the topic.</p>
+<div class="card m-5 w-75">
+<div class="ratio ratio-16x9">
+  <iframe src="https://www.youtube.com/embed/KswXd7tnJko" allowfullscreen="" frameborder="0"></iframe>
 </div>
-</div>
-<div class="card border-dark mb-3" style="width: 562px">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/GYCORMNr_IU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
   <div class="card-body">
+    <h5 class="card-title anchored">Data analytics for the era of AI</h5>
+    <p class="card-text">Building an end-to-end analytics project in MS Fabric. Creating a data warehouse, selecting connectors, mapping columns, and replicating data. Fabric provides low-code experiences, allowing users to visually build and model their data without writing code. The integration of fabric with Power BI enables collaborative data modeling, relationship creation, and report building within a single integrated experience. More on MS Fabric <a href="https://www.microsoft.com/en-us/microsoft-fabric" target="_blank">here</a>.</p>
+  </div>
+</div>
+<div class="card m-5 w-75">
+<div class="ratio ratio-16x9">
+  <iframe src="https://www.youtube.com/embed/GYCORMNr_IU" allowfullscreen="" frameborder="0"></iframe>
+</div>
+  <div class="card-body">
+    <h5 class="card-title anchored">Simple ML for Sheets</h5>
     <p class="card-text">Simple ML is an add-on for Google Sheets to solve the most common ML tasks. Its main tasks are are highly automated ML capabilities that do not require users to know ML: Predict missing values, spot abnormal values, and forecast future values.</p>
+  </div>
 </div>
+<div class="card m-5 w-75">
+<div class="ratio ratio-16x9">
+  <iframe src="https://www.youtube.com/embed/K7GPVZZiC6s" allowfullscreen="" frameborder="0"></iframe>
+</div>
+  <div class="card-body">
+    <h5 class="card-title anchored">Understand text faster with Vertex AI's AutoML NLP</h5>
+    <p class="card-text">This video discusses the application of AutoML Natural Language in solving various problems related to text data. It highlights use cases such as entity extraction, sentiment analysis, and text classification. Entity extraction helps identify known entities in documents, such as people, companies, and locations. Sentiment analysis determines the emotional opinion within text, categorizing it as positive, negative, or neutral. Text classification is useful for categorizing incoming user reports, such as bug reports, billing issues, or feedback.</p>
+  </div>
+</div>
+<div class="card m-5 w-75">
+<div class="ratio ratio-16x9">
+  <iframe src="https://www.youtube.com/embed/MxKNdVNyLJY" allowfullscreen="" frameborder="0"></iframe>
+</div>
+  <div class="card-body">
+    <h5 class="card-title anchored">Key Capabilities: Data Preparation</h5>
+    <p class="card-text">Connect, cleanse, and prepare data for analytics and machine learning projects at scale.</p>
+  </div>
+</div>
+<div class="card m-5 w-75">
+<div class="ratio ratio-16x9">
+  <iframe src="https://www.youtube.com/embed/wr__6tM5U6I" allowfullscreen="" frameborder="0"></iframe>
+</div>
+  <div class="card-body">
+    <h5 class="card-title anchored">Copilot in Power BI</h5>
+    <p class="card-text">Copilot in Power BI enhances the functionality of Power BI by incorporating large language models. It aims to assist users in maximizing productivity and extracting greater value from their data. With Copilot, users can effortlessly communicate their desired visuals and insights, leaving the rest to the tool. It enables quick report creation, efficient customization of DAX calculations, generation of narrative summaries, and conversational data querying. Power BI further facilitates the inclusion of tailored narratives within reports, enabling data insights to be conveyed effectively through easy-to-comprehend text summaries.</p>
+  </div>
+</div>
+<div class="card m-5 w-75">
+<div class="ratio ratio-16x9">
+  <iframe src="https://www.youtube.com/embed/MxKNdVNyLJY" allowfullscreen="" frameborder="0"></iframe>
+</div>
+  <div class="card-body">
+    <h5 class="card-title anchored">Key Capabilities: Data Preparation</h5>
+    <p class="card-text">Connect, cleanse, and prepare data for analytics and machine learning projects at scale.</p>
+  </div>
+</div>
+<div class="card m-5 w-75">
+<div class="ratio ratio-16x9">
+  <a href="https://www.kaggle.com/" target="_blank"><img src="kaggle.gif" class="img-fluid rounded-start" alt="Kaggle Image"></a>
+</div>
+  <div class="card-body">
+    <h5 class="card-title anchored">Kaggle</h5>
+    <p class="card-text"><a href="https://www.kaggle.com/" target="_blank">Kaggle</a> is an online platform for data enthusiasts to collaborate, solve real-world problems, and learn from a supportive community. Explore diverse datasets, uncover insights, and patterns. Engage in competitions, develop predictive models, and connect with experts in forums. Access interactive tutorials, learn new techniques, and understand real-world applications. Experiment with code in the user-friendly environment. Kaggle offers a chance to delve into data science, learn, and contribute.</p>
+  </div>
 </div>
 
-<div class="card border-dark mb-3" style="width: 562px">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/K7GPVZZiC6s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
-  <div class="card-body">
-    <p class="card-text">This video discusses the application of AutoML Natural Language in solving various problems related to text data. It highlights use cases such as entity extraction, sentiment analysis, and text classification. Entity extraction helps identify known entities in documents, such as people, companies, and locations. Sentiment analysis determines the emotional opinion within text, categorizing it as positive, negative, or neutral. Text classification is useful for categorizing incoming user reports, such as bug reports, billing issues, or feedback.</p>
-</div>    
-</div>
-<div class="card border-dark mb-3" style="width: 562px">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/MxKNdVNyLJY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
-  <div class="card-body">
-    <p class="card-text">Connect, cleanse, and prepare data for analytics and machine learning projects at scale.</p>
-</div>    
-</div>
-<div class="card border-dark mb-3" style="width: 562px">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/KrzcV1c1W1U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
-  <div class="card-body">
-    <p class="card-text">Data Wrangler is a code-centric data cleaning tool that is integrated into VS Code and VS Code Jupyter Notebooks. Data Wrangler aims to increase the productivity of data scientists doing data cleaning by providing a rich user interface that automatically generates Pandas code for and shows insightful column statistics and visualizations.</p>
-</div>
-</div>
-<div class="card border-dark mb-3" style="width: 562px">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/wr__6tM5U6I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
-  <div class="card-body">
-    <p class="card-text">Copilot in Power BI enhances the functionality of Power BI by incorporating large language models. It aims to assist users in maximizing productivity and extracting greater value from their data. With Copilot, users can effortlessly communicate their desired visuals and insights, leaving the rest to the tool. It enables quick report creation, efficient customization of DAX calculations, generation of narrative summaries, and conversational data querying. Power BI further facilitates the inclusion of tailored narratives within reports, enabling data insights to be conveyed effectively through easy-to-comprehend text summaries.</p>
-</div>    
-</div>
 </section>
 
-</main>
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-noauthor_cross-industry_2023" class="csl-entry" role="listitem">
+<span>“Cross-Industry Standard Process for Data Mining.”</span> 2023. <em>Wikipedia</em>. <a href="https://en.wikipedia.org/w/index.php?title=Cross-industry_standard_process_for_data_mining&amp;oldid=1157361719">https://en.wikipedia.org/w/index.php?title=Cross-industry_standard_process_for_data_mining&amp;oldid=1157361719</a>.
+</div>
+</div></section></div></main>
 <!-- /main column -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+<script>
+
+// Function to increase image size
+function toggleImageSize(imageId) {
+  const image = document.getElementById(imageId); // Get the image element by its id
+
+  if (image.style.width !== '175%') { // If the image is not large
+    image.style.width = '175%'; // Toggle it to large width
+    image.style.cursor = 'zoom-out';
+  } else { // Otherwise
+    image.style.width = '100%'; // Toggle it to 100% width
+    image.style.cursor = 'zoom-in';
+  }
+}
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
