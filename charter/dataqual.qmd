@@ -14,7 +14,6 @@ format:
 title-block-banner: "#e50055"
 editor: visual
 bibliography: bibliography.bib
-jupyter: python3
 ---
 
 ## Problem description
@@ -27,7 +26,7 @@ Data analytics involves a crucial process of evaluating and enhancing the qualit
 
 2.  Smart quality improvements: Leveraging Robotic Process Automation (RPA) and Artificial Intelligence (AI) to intelligently rectify data quality issues, streamlining the data cleansing and enrichment process.
 
-3.  Auto-generated exploratory data analysis: Employing automated tools to generate insightful exploratory data analysis, providing valuable insights and uncovering patterns or trends within the data.
+3.  Auto-generated exploratory data analysis: Employing automated tools to generate insightful exploratory and inferential data analysis, providing valuable insights and uncovering patterns or trends within the data.
 
 4.  Secure data access: Ensuring that data is accessed only by authorized individuals or systems in a protected and controlled manner.
 
@@ -44,6 +43,14 @@ The project customer fully supports this project and offers:
 -   Access to essential facilities, including domain experts, technology, systems, and data.
 
 -   Room for exploration and experimentation.
+
+## Working agreements
+
+**Weekly:** Engage in a one-hour project sprint with essential stakeholders.
+
+**Monday, Oct. 9:** Students will coordinate a Project Kick-off session.
+
+Further topics should be collaboratively discussed with the project client and will be integrated into the project plan. For inspiration on topics and methods see [here](https://www.atlassian.com/team-playbook/plays){target="_blank"}.
 
 ## Resources
 
@@ -115,7 +122,6 @@ The following material offers an overview of the current advancements in data an
   </div>
 </div>
 ```
-
 ```{=html}
 <div class="card m-5 w-75">
 <div class="ratio ratio-16x9">
@@ -127,7 +133,6 @@ The following material offers an overview of the current advancements in data an
   </div>
 </div>
 ```
-
 ## References
 
 ::: {#refs}
